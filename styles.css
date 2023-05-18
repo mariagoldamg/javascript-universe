@@ -54,7 +54,10 @@ body {
 /*---navbar---*/
 
 body{
-  background-color: #1D267D;
+  background: -webkit-linear-gradient(#1D267D, #FFff);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  
 }
 .navbar{
     background-color: #1D267D;
@@ -88,7 +91,7 @@ svg {
 .mainHeader{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .description{
     display: flex;
@@ -101,16 +104,16 @@ h1{
     font-weight: bold;
     font-size: 52px;
     background: -webkit-linear-gradient(#FFD95A, #FFff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .descriptionPar{
-    color:#FFF7D4;
+    color:#000022;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    background-color: #1D267D;
+    
 }
 /*---PORTFOLIO---*/
 .portfolioBox{
@@ -120,10 +123,11 @@ h1{
 }
 .card{
     display: flex;
-
     margin-top:50px;
-    margin-left:50px;
-    background-color: #FFF7D4;
+    margin-left:25px;
+    margin-right: 25px;
+    background-color: transparent;
+    border: 1px solid #1D267D;
 }
 img{
     height:150px
@@ -148,7 +152,56 @@ h5{
     color: #FFF7D4;
 }
 .btn:hover{
-    border: 2px solid #1D267D;
-    background-color: #FFD95A;
+    border: 1px solid #1D267D;
+    background: -webkit-linear-gradient(#FFD95A, #FFff);
     color:#1D267D
+}
+
+/**Footer**/
+.contactsPar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    background: -webkit-linear-gradient(#1D267D, #394867);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footerLinks{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+}
+.footerCopyright{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px
+}
+
+@media all and (max-width: 600px) {
+    /* ---- navbar---- */
+h1{
+    font-size: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.descriptionPar{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+h3{
+    font-size: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+
 }
