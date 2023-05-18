@@ -1,0 +1,154 @@
+
+
+body {
+    margin: 0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+  }
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  /* ---- particles.js container ---- */
+  #particles-js{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: repeat scroll center top;
+    background-size: cover;
+    background-position: 100% 100%;
+
+    z-index:-1;
+  }
+  /* ---- stats.js ---- */
+  .count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #394867;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+  #stats,
+  .count-particles{
+    -webkit-user-select: none;
+  }
+  #stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  .count-particles{
+    border-radius: 0 0 3px 3px;
+  }  
+
+/*---navbar---*/
+
+body{
+  background-color: #1D267D;
+}
+.navbar{
+    background-color: #1D267D;
+}
+.navbar-brand, .nav-link {
+    color:#FFF7D4;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand1 {
+    display: none;
+}
+ .nav-link:hover{
+    color: #F1F6F9;
+    text-decoration: underline;
+}
+.navbar-brand:hover{
+    color: #FFD95A;
+    text-decoration: underline;
+}
+
+#iconsFooter:hover{
+  fill:#FFD95A;
+}
+svg {
+    width:30px;
+    height:30px;
+   margin-left: 30px;
+}
+
+/*---body---*/
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    background: -webkit-linear-gradient(#FFD95A, #FFff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.descriptionPar{
+    color:#FFF7D4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #1D267D;
+}
+/*---PORTFOLIO---*/
+.portfolioBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+
+    margin-top:50px;
+    margin-left:50px;
+    background-color: #FFF7D4;
+}
+img{
+    height:150px
+}
+.cardDes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#1D267D; 
+}
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#1D267D; 
+}
+.btn{
+    background-color:#1D267D;
+    color: #FFF7D4;
+}
+.btn:hover{
+    border: 2px solid #1D267D;
+    background-color: #FFD95A;
+    color:#1D267D
+}
