@@ -1,5 +1,5 @@
 # javascript-universe
-
+![cover]()
 > This is a collection of 10+ JavaScript Projects demonstrating various functionalities including timer, API, library search etc.
 
 > Live demo [_here_](https://jsuniverse-mariamelnikova.netlify.app/). 
@@ -30,7 +30,6 @@
 
 
 ## Features
-List the ready features here:
 - countdown timer;
 - phrase generator;
 - API app;
